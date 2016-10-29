@@ -1,0 +1,27 @@
+<html>
+<header>
+	<title>我就是不用百度！</title>
+	<meta charset="utf-8">
+</header>
+<body>
+	<h1>今天是马化腾生日，将下图发到4个群就能获得一年QQ会员！</h1>
+	<h1 class="text-show">腾哥我就喜欢用iphone6╭(╯^╰)╮！</h1>
+	<img class="longge" src="longge.jpg"></div>
+	<img class="ma" src="ma.jpg"></div>
+	<img
+</body>	
+<script type="text/javascript">
+	var u = navigator.userAgent;
+	var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+	var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+	if(isiOS){
+		alert("哇，你用iphone6啊，那我给你看看马总的照片");
+		document.getElementsByClassName('longge')[0].style.visibility='hidden';
+	}
+	else{
+		document.getElementsByClassName('ma')[0].style.visibility='hidden';
+		document.getElementsByClassName('text-show')[0].style.visibility='hidden';	
+	}
+</script>
+</html>
+
