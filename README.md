@@ -7,3 +7,7 @@
 2016.10.29: 小字辈技术沙龙第二期
   1. Vins0n-HTTP协议简介-I.pdf
   2. zemal-Pragmatic Unicode(编码)-HTML
+
+2017.05.23
+  1.Vins0n-机器学习入门_房价预测.pdf
+
